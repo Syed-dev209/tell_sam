@@ -2,7 +2,7 @@
     name="release"
     package="com.example.tell_sam"
     minSdkVersion="16"
-    targetSdkVersion="31"
+    targetSdkVersion="33"
     shrinking="true"
     mergedManifest="/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     manifestMergeReport="/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/build/app/outputs/logs/manifest-merger-release-report.txt"

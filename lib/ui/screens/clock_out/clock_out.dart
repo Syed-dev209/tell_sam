@@ -63,6 +63,7 @@ class _ClockOutState extends State<ClockOut> {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 500.w),
                         child: SearchField(
+                           suggestionDirection: SuggestionDirection.up,
                           controller: _nameController,
                           autoCorrect: false,
                           suggestions: usersData

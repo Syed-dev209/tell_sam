@@ -20,7 +20,7 @@ class ClockOutSuccess extends StatefulWidget {
 }
 
 class _ClockOutSuccessState extends State<ClockOutSuccess> {
-  DateFormat format = DateFormat('hh:mm');
+  DateFormat format = DateFormat('hh:mm:ss');
   navigateBack() async {
     await Future.delayed(const Duration(seconds: 5));
 
@@ -65,7 +65,7 @@ class _ClockOutSuccessState extends State<ClockOutSuccess> {
               style: textStyleSuccessScreenLarge,
             ),
             Text(
-              'You have clocked out at ${format.format(widget.currentTime)}',
+              'You have clocked out at ${DateFormat.Hm().format(widget.currentTime)}',
               style: textStyleSuccessScreenSmall,
             ),
             Text(

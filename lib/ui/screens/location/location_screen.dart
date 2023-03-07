@@ -89,6 +89,7 @@ class _LocationsScreenState extends State<LocationsScreen> {
                         child: Padding(
                           padding: EdgeInsets.symmetric(horizontal: 400.w),
                           child: SearchField<LocationsModelData>(
+                             suggestionDirection: SuggestionDirection.up,
                             suggestions: allLocation.data!
                                 .map((e) =>
                                     SearchFieldListItem<LocationsModelData>(

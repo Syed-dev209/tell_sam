@@ -6,9 +6,9 @@
     maven="android:app:"
     gradle="7.1.2"
     buildFolder="/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/build/app"
-    bootClassPath="/Users/ilhan/Library/Android/sdk/platforms/android-31/android.jar:/Users/ilhan/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    bootClassPath="/Users/ilhan/Library/Android/sdk/platforms/android-33/android.jar:/Users/ilhan/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-31">
+    compileTarget="android-33">
   <lintOptions
       abortOnError="true"
       absolutePaths="true"

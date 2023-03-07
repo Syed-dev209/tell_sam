@@ -2,7 +2,7 @@
     name="release"
     package="com.example.tell_sam"
     minSdkVersion="16"
-    targetSdkVersion="31"
+    targetSdkVersion="33"
     shrinking="true"
     mergedManifest="/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     proguardFiles="/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/Users/ilhan/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"

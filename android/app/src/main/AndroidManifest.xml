@@ -2,7 +2,7 @@
     package="com.example.tell_sam">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="tell_sam"
+        android:label="Tell Sam"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -16,7 +16,7 @@ class ClockInSuccess extends StatefulWidget {
 }
 
 class _ClockInSuccessState extends State<ClockInSuccess> {
-  DateFormat format = DateFormat('hh:mm');
+  DateFormat format = DateFormat('hh:mm:ss');
   navigateBack() async {
     await Future.delayed(const Duration(seconds: 5));
 
@@ -61,7 +61,7 @@ class _ClockInSuccessState extends State<ClockInSuccess> {
               style: textStyleSuccessScreenLarge,
             ),
             Text(
-              'You have clocked in at ${format.format(widget.currentTime)}',
+              'You have clocked in at ${DateFormat.Hm().format(widget.currentTime)}',
               style: textStyleSuccessScreenSmall,
             )
           ],

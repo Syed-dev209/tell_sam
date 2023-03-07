@@ -33,7 +33,8 @@ class _ClockInAndClockOutState extends State<ClockInAndClockOut> {
     });
   }
 
-  String get appBarText => widget.type == Entry.clockIn ? 'Clock In' : 'Clock Out';
+  String get appBarText =>
+      widget.type == Entry.clockIn ? 'Clock In' : 'Clock Out';
 
   @override
   void initState() {
@@ -102,6 +103,7 @@ class _ClockInAndClockOutState extends State<ClockInAndClockOut> {
                               padding: EdgeInsets.symmetric(horizontal: 400.w),
                               child: SearchField<StaffsModelData>(
                                 controller: _nameController,
+                                suggestionDirection: SuggestionDirection.up,
                                 autoCorrect: false,
                                 suggestions: staffsModel.data!
                                     .map((e) =>
@@ -125,7 +127,7 @@ class _ClockInAndClockOutState extends State<ClockInAndClockOut> {
                                 suggestionState: Suggestion.expand,
                                 textInputAction: TextInputAction.next,
                                 hint: 'Please enter your name',
-                                hasOverlay: false,
+                                hasOverlay: true,
                                 searchStyle: TextStyle(
                                   fontSize: 18.sp,
                                   color: Colors.black.withOpacity(0.8),

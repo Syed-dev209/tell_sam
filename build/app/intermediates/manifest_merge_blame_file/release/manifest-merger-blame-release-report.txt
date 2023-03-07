@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="16"
 8-->/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="33" />
 9-->/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -21,7 +21,7 @@
 15-->[androidx.core:core:1.6.0] /Users/ilhan/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 16        android:icon="@mipmap/ic_launcher"
 16-->/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/android/app/src/main/AndroidManifest.xml:7:9-43
-17        android:label="tell_sam" >
+17        android:label="Tell Sam" >
 17-->/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/android/app/src/main/AndroidManifest.xml:5:9-33
 18        <activity
 18-->/Users/ilhan/Desktop/Ilhan Flutter projects/tell_sam/android/app/src/main/AndroidManifest.xml:8:9-29:20
