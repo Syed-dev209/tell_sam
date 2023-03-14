@@ -89,7 +89,7 @@ class _LocationsScreenState extends State<LocationsScreen> {
                         child: Padding(
                           padding: EdgeInsets.symmetric(horizontal: 400.w),
                           child: SearchField<LocationsModelData>(
-                             suggestionDirection: SuggestionDirection.up,
+                            suggestionDirection: SuggestionDirection.up,
                             suggestions: allLocation.data!
                                 .map((e) =>
                                     SearchFieldListItem<LocationsModelData>(
@@ -113,7 +113,7 @@ class _LocationsScreenState extends State<LocationsScreen> {
                             suggestionState: Suggestion.expand,
                             textInputAction: TextInputAction.next,
                             hint: 'Please enter location',
-                            hasOverlay: false,
+                            hasOverlay: true,
                             searchStyle: TextStyle(
                               fontSize: 18.sp,
                               color: Colors.black.withOpacity(0.8),

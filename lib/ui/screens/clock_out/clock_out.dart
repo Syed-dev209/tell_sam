@@ -83,7 +83,7 @@ class _ClockOutState extends State<ClockOut> {
                           suggestionState: Suggestion.expand,
                           textInputAction: TextInputAction.next,
                           hint: 'Please enter your name',
-                          hasOverlay: false,
+                          hasOverlay: true,
                           searchStyle: TextStyle(
                             fontSize: 18.sp,
                             color: Colors.black.withOpacity(0.8),

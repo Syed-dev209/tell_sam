@@ -1,5 +1,5 @@
 class APIS {
-  static const String baseUrl = "https://www.codewithmemes.com/";
+  static const String baseUrl = "https://app.tellsam.co.uk/";
   static const String apiAccessKey = "secretTokenForTellSam";
   static const String allLocation = "locations";
   static const String allStaff = "staffs";
